@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandarina blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="recursos/favicon.png">
+    <link rel="stylesheet" href="https://use.typekit.net/jgc4xod.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jgc4xod.css">
+    <link rel="stylesheet" href="https://use.typekit.net/khf7pgr.css"> <!--font des d'Adobe, la tinc al meu perfil -->
+</head>
+
+<body>
+    <!-- Vídeo de fons -->
+    <video autoplay muted loop id="videofons">
+        <source src="recursos/Fons.mp4" type="video/mp4">
+    </video>
+
+    <!-- Navbar -->
+    <!-- Superior que s'amaga -->
+    <div>
+        <nav class="navbar navbar sticky-top bg-body-tertiary navbarsuperior">
+            <div class="container-fluid" style="display: inline-flex; line-height: 80%;">
+                <img src="recursos/titol2.png">
+            </div>
+        </nav>
+    </div>
+
+   <!-- Superior que  no s'amaga -->
+    <nav class="navbar navbar sticky-top navbar-expand-lg bg-body-tertiary navbarnou">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="recursos/m.png" width="30%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-left: -05%;">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            2025
+                        </a>
+                        <ul class="dropdown-menu dropdownmenu-nou" >
+                            <li><a class="dropdown-item" href="index.html">Novembre</a></li>
+                            <li><a class="dropdown-item" href="#desembre">Desembre</a></li>
+                            <li><a class="dropdown-item" href="#apunts">Apunts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            2026
+                        </a>
+                        <ul class="dropdown-menu dropdownmenu-nou">
+                            <li><a class="dropdown-item" href="#gener">Gener</a></li>
+                            <li><a class="dropdown-item" href="#febrer">Febrer</a></li>
+                            <li><a class="dropdown-item" href="#març">Març</a></li>
+                            <li><a class="dropdown-item" href="#abril">Abril</a></li>
+                            <li><a class="dropdown-item" href="#maig">Apunts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Newsletter
+                        </a>
+                        <ul class="dropdown-menu dropdownmenu-nou">
+                            <li><a class="dropdown-item" href="#newsletterque">Què és?</a></li>
+                            <li><a class="dropdown-item" href="#newsletterformulari">Formulari</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projectes i tal
+                        </a>
+                        <ul class="dropdown-menu dropdownmenu-nou">
+                            <li><a class="dropdown-item" href="#fotos">Fotos</a></li>
+                            <li><a class="dropdown-item" href="#coses ">Coses</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Molly
+                        </a>
+                        <ul class="dropdown-menu dropdownmenu-nou">
+                            <li><a class="dropdown-item" href="#navly">Molly</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <!-- Disposició flex-->
+
+
+    <!-- Disposició flex -->
+    <!-- Esquerra -->
+    <div class="flex-container">
+        <div class="flex-item-left">
+
+            <!-- Novembre -->
+            <div id=gener class="good-anchor"> </div>
+            <div class="contenidortitols"> Gener </div>
+
+            <!-- Congrés -->
+            <div class="contingut">
+                <h1>En construcció</h1>
+                <h2>eeeh
+                </h2>
+                <h3>Encara no sé viatjar en el temps!
+                </h3>
+            </div>
+
+        
+
+            <!--Secció capítols-->
+            <!--Temporada 1-->
+            <div id="febrer" class="good-anchor"> </div>
+            <div class="contenidortitols">Febrer</div>
+            <div class="contingut">
+            </div>
+            
+
+            <div id="març" class="good-anchor"> </div>
+            <div class="contenidortitols">Març</div>
+            <div class="contingut">
+            </div>
+        </div>
+
+
+        <!-- Dreta -->
+        <div class="flex-item-right">
+            <div class="contenidortitols">Recomanacions</div>
+            <div class="d-flex flex-column mb-3">
+                <div> <img src="recursos/mcr_1.png" class="imatges-recomana"></div>
+                <div> <img src="recursos/shrek-01.png" class="imatges-recomana"></div>
+            </div>
+
+            <!-- vIDEOS pemis etc -->
+            <!-- videos -->
+            <div class="contenidortitols">Vídeos del mes</div>
+            <div class="contingut">
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/Cxe_YMJ4nUs"></iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/Z1UWsBJ5HgU"></iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/RUsUQ9tRHHQ"></iframe>
+                
+            </div>
+
+             <!-- Footer -->
+            <div class="footer">
+                <div class="flex-container">
+                    <div class="flex-item-left-footer">
+                        <img src="recursos/favicon.png" width="30" height="30">
+                        <p style="position:relative; top: 12px;">andarinasociable</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+            
+</body>
+
+</html>
